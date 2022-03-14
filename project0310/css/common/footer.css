@@ -1,0 +1,40 @@
+/*footer 시작*/
+
+.footer{
+ width: 100%;
+ height: auto;
+ background-color: #405b99;
+ display: flex;
+ justify-content: center;
+ padding: 10px 0;
+ font-family: 'Pretendard-Regular';
+}
+.footer .inner-footer{
+ width: 100%;
+ height: auto;
+ flex: 0 1 960px;
+ background-color: whitesmoke;
+ padding: 10px 0;
+}
+.footer .inner-footer .topFcon{
+ padding: 10px 50px;
+}
+.footer .inner-footer .topFcon>ul{
+ display: flex;
+ justify-content: space-between;
+}
+.footer .inner-footer .topFcon>ul>li{}
+.footer .inner-footer .centerFcon{
+ display: flex;
+ justify-content: center;
+}
+.footer .inner-footer .bottomFcon{
+ display: flex;
+ flex-direction: column;
+ padding: 10px 0;
+}
+.footer .inner-footer .bottomFcon>span.s1{
+ display: flex;
+ justify-content: space-between;
+ padding: 0 20px 0 20px;
+}

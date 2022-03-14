@@ -1,0 +1,76 @@
+/*container 시작*/
+
+.container{}
+.container .inner-container{
+ padding: 50px 0;
+}
+.container .inner-container .join{}
+.container .inner-container .join .inner-join{
+ display: flex;
+ justify-content: center;
+}
+.container .inner-container .join .inner-join .join-con{
+ flex: 0 1 600px;
+}
+.container .inner-container .join .inner-join .join-con h1.title{
+ line-height: 30px;
+ padding: 20px 0;
+ text-align: center;
+ background-color: #405b99;
+ color: white;
+ font-weight: 400;
+ box-shadow: 0 2px 2px gray;
+}
+ .container .inner-container .join .inner-join .join-con .join-form{
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 0 2px 2px gray;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul{
+  box-shadow: 0 2px 2px gray;
+  box-sizing: border-box;
+  padding: 10px;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li{
+  /*border: 1px solid;*/
+  box-sizing: border-box;
+  display: flex;
+  line-height: 20px;
+  padding: 10px 5px;
+  display: flex;
+  gap: 10px;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li:nth-child(1) input{
+  width: 75%;
+  margin: 0 auto;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li:nth-child(2) input{
+  width: 75%;
+  margin: 0 auto;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li:nth-child(4) .rightInput{
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li:nth-child(5) input{
+  flex: 1;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li label{
+  flex: 0 0 100px;
+  background-color: #ccc;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li .rightInput{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li .rightInput select{
+  border: 1px dashed #ccc;
+  font-size: 12px;
+  height: 30px;
+  text-align: center;
+ }
+ .container .inner-container .join .inner-join .join-con .join-form ul li .rightInput input[type=radio]:focus{
+  outline: 2px dashed pink;
+ }
